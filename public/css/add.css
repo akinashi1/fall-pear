@@ -1,0 +1,33 @@
+/* いいねされてない */
+.balloon {
+    position: relative;
+    background-color: #e0f6ff;
+    padding: 8px;
+    color: #333333;
+    margin: -8px 15px 0px 15px;
+    border-radius: 5px;
+    border: 0px solid transparent;
+    }
+    
+    .balloon::before {
+    content: "";
+    position: absolute;
+    border: 12px solid transparent;
+    border-right: 12px solid #e0f6ff;
+    top: 20%;
+    left: -24px;
+    }
+    
+    .balloon p {
+    margin: 0;
+    padding: 0;
+    }
+
+/* いいねされてるとき */
+.liked {
+    background-color: #2bc4ff;
+}
+
+.liked::before {
+    border-right: 12px solid #2bc4ff;
+}
