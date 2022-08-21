@@ -1,39 +1,30 @@
-## 雑学産業
+# 雑学産業
 PHP自作
 
-![This is an image](https://www.appbank.net/wp-content/uploads/2012/05/bZnmjYopqFhbF6Tvg2tEqw-temp-upload.vjhsnxku.png)
+## 概要
 
-概要
-吹奏楽の演奏会の宣伝サイトを作成しました。
+管理人　ログインユーザ　ゲストユーザに分け利用可能です
 
-主催者ユーザと一般ユーザに分け、 それぞれでログインできるようにしています。
-
-使い方
+## 使い方
 主催者ユーザ
 
-演奏会の登録・更新・削除、送られたコメント・メッセージが見れるようにしています。
+管理アカウント：投稿削除
 
-テストアカウント：
+メールアドレス→masu@masu
 
-メールアドレス→syusai@com.jp
+パスワード→ryouyama1
 
-パスワード→syusaitest
+一般アカウント：投稿　いいね　削除　編集
 
-一般ユーザ
+メールアドレス→tesu@tesu1
 
-演奏会検索、お気に入り登録、演奏会に行った後評価・コメント登録ができるようになっています。
+パスワード→ryouyama1
 
-テストアカウント：
+# 環境
+xamp/MySQL/PHP
 
-メールアドレス→test.test@com.jp
-
-パスワード→Passtest
-
-環境
-MAMP/MySQL/PHP
-
-データベース
-データベース名：create_php
+# データベース
+データベース名：trivia
 
 テーブル
 
