@@ -9,10 +9,7 @@ PHP自作
 主催者ユーザ
 
 管理アカウント：投稿削除
-
-メールアドレス→masu@masu
-
-パスワード→ryouyama1
+ページからアカウント作成後　phpmyadminから手動でuser テーブルのID をゼロに変更してください
 
 一般アカウント：投稿　いいね　削除　編集
 
@@ -28,4 +25,4 @@ xamp/MySQL/PHP
 
 テーブル
 
-お使いのphpMyAdminに上のデータベースを作り、入っているDB.sqlをインポートしていただければお使いいただけるようになると思います。
+お使いのphpMyAdminに上の "trivia" データベースを作り、マイグレーションしてください　" $ php artisan migrate "
