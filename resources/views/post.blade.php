@@ -16,7 +16,7 @@
     </div>
 
     <div class="mb-3 mt-3 row">
-        <label class="col-sm-2 col-form-label">トリビア(36文字)</label>
+        <label class="col-sm-2 col-form-label">トリビア(100文字)</label>
         <div class="col-sm-10">
             <div class="text-danger">{{ $errors->first('trivia') }}</div>
             <textarea class="form-control" id="inputmail" name="trivia" placeholder="素晴らしいトリビアをお持ちで？"></textarea>
