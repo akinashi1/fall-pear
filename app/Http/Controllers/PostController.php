@@ -14,8 +14,7 @@ class PostController extends Controller
 {
     private $Service;
 
-    public function __construct()
-    {
+    public function __construct(){
         $this->Service = new Service();
     }
 
