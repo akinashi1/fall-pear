@@ -10,10 +10,8 @@ use App\Services\Service;
 
 class TriviaController extends Controller
 {
-    private $rand;
-
-    public function __construct()
-    {
+	
+    public function __construct(){
         $this->rand = new Service();
     }
 
